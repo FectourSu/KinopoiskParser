@@ -1,5 +1,5 @@
 
-# Kinopoisk.ru parser by movie id on Python
+# Kinopoisk.ru parser by movie id on Python :shipit:
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -11,8 +11,9 @@
 ## Getting Started
 
 To get started using application follow the instructions below.
+This project was written on python 3.9, but it was also tested on version 3.7
 
-## Installing packages:
+### Installing packages:
 
 ```sh
 pip install beautifulsoup4 
@@ -73,11 +74,11 @@ api = <YOUR API>
 UPD: The api from the test account was used in the repository
 
 ## Final recommendations
-The parser is built on using the xpath element, that is, there should be no binding to the class_name of the object.
-But... the author is a true trash coder...
-And therefore, the parser uses partially class_name blocks, it is required to update it in settings. ini, as their developers change on the site
+The parser is built on using the xpath element, that is, there should be no binding to the class name of the object.
+But... the author is a trash coder...
+And therefore, the parser uses partially class name blocks, it is required to update it in settings.ini, as their developers change on the site
 ### For example
-at the moment, the class of the main page is as follows: styles_root__2gHIX
+At the moment, the class of the main page is as follows: styles_root__2gHIX
 in the settings, the last part of it is taken
 ```sh
 [PARSER]
