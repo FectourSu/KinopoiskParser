@@ -42,7 +42,9 @@ pip install configparser
 ```sh
 pip install selenium
 ```
-
+```sh
+pip install pyinstaller #if you want compile to exe
+```
 ## Quick Start Guide
 
 Launching the application is as simple as possible: \
