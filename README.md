@@ -5,7 +5,7 @@
 - [Getting Started](#getting-started)
     - [Installing packages](#installing-packages)
 - [Quick Start Guide](#quick-start-guide)
-- [Configurate settings.ini](#configurate-settings.ini)
+- [Settings](#settings)
 - [Final recommendations](#final-recommendations)
 
 ## Getting Started
@@ -63,7 +63,7 @@ python -m PyInstall --onefile kinopoisk.py
 ```
 in the dist folder you can find the compiled version of the program
 
-## Configurate settings.ini
+## Settings
 
 The main parsing settings will be described here
 If you have registered on https://kinopoiskapiunofficial.tech/ and got your own api, in this case, you can have your api in settings.ini
