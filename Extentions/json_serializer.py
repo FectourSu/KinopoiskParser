@@ -2,7 +2,7 @@ import json
 import errno
 import os
 import asyncio
-from types import coroutine
+
 class JsonSerializer():
 	@staticmethod
 	async def serialize(data, id:int):
