@@ -13,5 +13,4 @@ class Console():
 			metavar='kp_id',
 			help='The source of kinopoisk --kp, as the parameter of the movie id'
 		)
-
 		return self.arg_parser.parse_args()

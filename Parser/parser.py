@@ -1,10 +1,10 @@
 from abc import ABCMeta, abstractclassmethod
 
-class IParser(meta=ABCMeta):
+class IParser():
     @abstractclassmethod
-    async def get_content():
+    async def parse():
         raise NotImplementedError
-    
+        
     @abstractclassmethod
-    async def download_page(url:str):
+    async def get_html(url:str):
         raise NotImplementedError

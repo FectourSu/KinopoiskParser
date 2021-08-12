@@ -19,6 +19,9 @@ This project was written on python 3.9, but it was also tested on version 3.7
 pip install beautifulsoup4 
 ```
 ```sh
+pip install aiohttp
+```
+```sh
 pip install requests
 ```
 ```sh

@@ -17,3 +17,4 @@ class JsonSerializer():
 		with open(jsonfile, "w", encoding='utf8') as write_file:
 			await asyncio.sleep(0)
 			json.dump(data, write_file, indent=4, ensure_ascii=False)
+
