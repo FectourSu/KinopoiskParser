@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractclassmethod
 
 class IParser():
     @abstractclassmethod
-    async def parse():
+    async def parse(id:int):
         raise NotImplementedError
         
     @abstractclassmethod
