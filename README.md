@@ -22,9 +22,6 @@ pip install beautifulsoup4
 pip install aiohttp
 ```
 ```sh
-pip install requests
-```
-```sh
 pip install logging
 ```
 ```sh
@@ -54,7 +51,7 @@ Launching the application is as simple as possible: \
 python [nameofscript] [filmid]
 
 ```py
-python kinopoisk.py 389
+python main.py -kp 389
 ```
 After parsing, the result will be placed in the created src folder
 In the "src" folder, you can find ready-made parsed movies in .json format

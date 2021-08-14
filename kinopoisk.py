@@ -7,7 +7,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-from datetime import timedelta, datetime
 import Extentions.json_serializer as jsonext
 import configparser
 import sys
